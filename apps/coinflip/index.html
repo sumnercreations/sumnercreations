@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coin Flip</title>
+<!-- Set the size so it looks nice on the mobile phone -->
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+<!-- Shortcut icons -->
+<link rel="icon" href="heads.png" />
+<link rel="shortcut icon" href="heads.ico" />
+<link rel="apple-touch-icon" href="heads.png"/>
+<link rel="apple-touch-icon-precomposed" href="heads.png"/>
+<!-- Hide the address bar of the browser -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<!-- Specify the color of the browser status bar -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<!-- Image to display while the web app loads -->
+<link rel="apple-touch-startup-image" href="heads.png" />
+<!-- Link to the Google Font Ubuntu -->
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
+<script language="javascript">
+function flipCoin()
+	{
+		var x = parseInt(Math.random() * 2, 10);
+		coinsrc = (!x) ? "heads.png" : "tails.png";
+		document['coin'].src = "coinflip.gif";
+		//document.getElementById("status").innerHTML = "Flipping...";
+		ID = window.setTimeout("changeCoin();", 5000);		
+	}
+	
+function changeCoin()
+	{
+		document['coin'].src = coinsrc;
+		var status = coinsrc.replace('.png', '' );
+		document.getElementById("status").innerHTML = status;
+	}
+</script>
+<style type="text/css">
+html{
+	background-color: #C0C0C0;
+	font-family: 'Ubuntu', arial, serif;
+}
+
+.container{
+	height: 100%;
+	margin: 0px auto;
+}
+
+.content{
+	width: 200px;
+	margin: 0px auto;
+	}
+
+p{
+	text-align: center;
+}
+
+.promo{
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="promo">
+		<a href="https://developer.palm.com/appredirect/?packageid=com.sumnercreations.coinflip">
+			<img src="hp_app_catalog.png" width="100" height="100"/><br />Download this App on your WebOS Device
+		</a>
+	</div>
+	<div class="content">
+		<p>Tap the Coin</p>
+		<img name="coin" src="heads.png" width="190" height="190" onclick="flipCoin();" />
+		<p id="status"></p>
+	</div>
+</div>
+</body>
+</html>
