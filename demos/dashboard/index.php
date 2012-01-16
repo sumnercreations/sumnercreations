@@ -8,6 +8,7 @@
 		<!-- JAVASCRIPT FILES -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
 		<script type="text/javascript" src="fancybox/jquery.fancybox-2.0.3/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="js/jquery.tickertype.js"></script>
 		<script>
 			$(document).ready(function() {
 				$(".various").fancybox({
@@ -68,6 +69,17 @@
 				height: 33.33333%;
 				position: relative;
 			}
+			
+			#ticker-area
+			{
+				background-color: rgba(192,192,192,0.8);
+				font-size: 2em;
+				margin: auto;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				z-index: 2;
+			}
 		</style>
 	</head>
 <body>  
@@ -116,8 +128,8 @@
 				</a>
 			</div>
 			<div class="iframe yui3-u-1-3">
-				<iframe src="http://www.jquery.com"></iframe>
-				<a class="various fancybox.iframe" href="http://www.jquery.com">
+				<iframe src="http://www.yiiframework.com/"></iframe>
+				<a class="various fancybox.iframe" href="http://www.yiiframework.com/">
 					<img class="hidden" src="images/fullscreen.gif" />
 				</a>
 			</div>
@@ -127,7 +139,16 @@
 					<img class="hidden" src="images/fullscreen.gif" />
 				</a>
 			</div>
-		</div>
-	</div>
+		</div><!-- end div.yui3-g -->
+		<div id="ticker-area">
+		  <ul>
+			<li>This is a ticker tape example</li>
+			<li>It could work well on this dashboard page</li>
+		    <li>It will even support links <a href="http://www.google.com">Google</a>.</li>
+		    <li>You could pull this information from a DB.</li>
+			<li>Or, even an XML file.</li>
+		  </ul>
+		</div> <!-- end div#ticker-area -->
+	</div> <!-- end div.container -->
 </body>
 </html>
