@@ -1,8 +1,7 @@
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-21157875-1']);
-  _gaq.push(['_setDomainName', '.sumnercreations.com']);
+  _gaq.push(['_setAccount', 'UA-20805203-2']);
   _gaq.push(['_trackPageview']);
 
   (function() {
