@@ -10,5 +10,4 @@
 			<img src="http://officecubicledotorg.files.wordpress.com/2011/03/website-under-construction.gif" alt="Under Construction" />
 		</div><!-- /well -->
 	</div><!-- /container content -->
-</body>
-</html>
+<?php include("includes/footer.inc"); ?>

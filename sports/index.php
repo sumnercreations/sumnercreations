@@ -25,5 +25,4 @@
 		</div>
 		</div>
 	</div><!-- /content -->
-</body>
-</html>
+<?php include("includes/footer.inc"); ?>
