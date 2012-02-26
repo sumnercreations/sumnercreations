@@ -13,7 +13,7 @@
 		{
 			if(DEBUG)
 			{
-				alert(BrowserDetect.browser);
+				console.log(BrowserDetect.browser);
 			}
 		}
 	</script>
