@@ -1,4 +1,3 @@
-<html>
 <?php include("includes/header.inc"); ?>
 <body>
 	<?php include("includes/navigation.inc"); ?>

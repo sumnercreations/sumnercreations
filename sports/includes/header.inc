@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
 	<title>Magna Stake Sports</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css" />

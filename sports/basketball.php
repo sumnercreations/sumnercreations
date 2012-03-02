@@ -1,4 +1,3 @@
-<html>
 <?php include("includes/header.inc"); ?>
 <body data-spy="scroll" data-target=".subnav" data-offset="50" data-rendering="true">
 	<?php include("includes/navigation.inc"); ?>
