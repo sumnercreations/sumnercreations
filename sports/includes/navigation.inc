@@ -3,7 +3,7 @@
 			<div class="container">
 				<h3><a class="brand" href="index.php">Magna Utah Stake Sports</a></h3>
 					<ul class="nav">
-  						<li class="active">
+  						<li>
     						<a href="index.php">Home</a>
   						</li>
   						<li><a href="basketball.php">Basketball</a></li>

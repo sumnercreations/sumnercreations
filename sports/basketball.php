@@ -1377,6 +1377,7 @@
 	      		<li><a href="http://utahareasports.org/uploads/UAS_Rule_Waiver_Request_-_Form.pdf">Rule Waiver Request Form</a></li>
 	      		<li><a href="http://utahareasports.org/uploads/UAS_Team_Line-up_Sheet.pdf">Team Lineup Sheet</a></li>
 	      		<li><a href="http://utahareasports.org/uploads/Utah_Area_Sports_Manual.pdf">Utah Area Sports Manual</a></li>
+	      		<li>Region YM and Men Bracket and Games. <a href="docs/2012_GCC_Tournament_Brackets.xls">Download (XLS)</a> | <a href="https://docs.google.com/spreadsheet/ccc?key=0AoRMqPyz4Wp6dGIyWXdUZ01xTDZBcDV5T0ZjUHdOU3c" target="_blank">View Online (Google Doc)</a></li>
 	    	<ul>
 	    	<p class="center-text"><br />For other documents and information visit the <a href="http://utahareasports.org/content/?page=21">Utah Area Sports Basketball Page</a>.</p>
 		</div><!-- /well docs -->
