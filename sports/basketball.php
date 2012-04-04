@@ -1,6 +1,22 @@
 <?php include("includes/header.inc"); ?>
 <body data-spy="scroll" data-target=".subnav" data-offset="50" data-rendering="true">
-	<?php include("includes/navigation.inc"); ?>
+	<?php //include("includes/navigation.inc"); ?>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<h3><a class="brand" href="index.php">Magna Utah Stake Sports</a></h3>
+					<ul class="nav">
+  						<li><a href="index.php">Home</a></li>
+  						<li class="active"><a href="basketball.php">Basketball</a></li>
+  						<li><a href="futsal.php">Futsal (indoor soccer)</a></li>
+  						<li><a href="volleyball.php">Volleyball</a></li>
+  						<li><a href="softball.php">Softball</a></li>
+  						<li><a href="football.php">Flag Football</a></li>
+  						<li><a href="5k.php">5K Run</a></li>
+					</ul><!-- /nav -->
+			</div><!-- /container -->
+		</div> <!-- /navbar-inner -->
+	</div><!-- /navbar -->
 	<div class="container content">
 		<div class="well">
 			<h1 class="center-text">Basketball</h1>
@@ -11,7 +27,7 @@
 				<li><a href="#standings">Standings</a></li>
 				<li><a href="#stats">Player Statistics</a></li>
 				<li><a href="#docs">Documents</a></li>
-				<li><a href="#allstar">All-Star Participants Form</a></li>
+				<li><a href="#allstar">All-Star Weekend</a></li>
 			</ul>
 		</div>
 		<br />
@@ -25,6 +41,7 @@
 			            Men <b class="caret"></b>
 			        </a>
 			        <ul class="dropdown-menu">
+			            <li><a href="#men-mar17" data-toggle="tab">Mar 17</a></li>
 			            <li><a href="#men-mar3" data-toggle="tab">Mar 3</a></li>
 			            <li><a href="#men-feb25" data-toggle="tab">Feb 25</a></li>
 			            <li><a href="#men-feb18" data-toggle="tab">Feb 18</a></li>
@@ -50,6 +67,89 @@
 			<div id="myTabContent" class="tab-content">
 			    <div class="tab-pane fade in active" id="info">
 			        <p>Select the date from the appropriate dropdown above for the game(s) you wish to see the scores.</p>
+			    </div>
+			    <div class="tab-pane fade" id="men-mar17">
+			    	<h3 class="center-text">Men - March 17, 2012</h3><br />
+			    	<table class="table table-striped table-bordered table-condensed">
+			          <tbody>
+			            <tr>
+			              <th>Magna</th>
+			              <td>90</td>
+			              <td>22</td>
+			              <td>22</td>
+			              <td>26</td>
+			              <td>20</td>
+			            </tr>
+			            <tr>
+			              <td>West Mountain</td>
+			              <td>56</td>
+			              <td>9</td>
+			              <td>12</td>
+			              <td>16</td>
+			              <td>19</td>
+			            </tr>
+			          </tbody>
+			        </table>
+			        <table class="table table-striped table-bordered table-condensed">
+			          <tbody>
+			            <tr>
+			              <th>PG 2</th>
+			              <td>Win</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			            </tr>
+			            <tr>
+			              <td>PG 3</td>
+			              <td>Forfeit</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			            </tr>
+			          </tbody>
+			        </table>
+			        <table class="table table-striped table-bordered table-condensed">
+			          <tbody>
+			          	<tr>
+			              <th>Spencer 1</th>
+			              <td>Win</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			            </tr>
+			            <tr>
+			              <td>Parkside</td>
+			              <td>Forfeit</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			            </tr>
+			          </tbody>
+			        </table>
+			        <table class="table table-striped table-bordered table-condensed">
+			          <tbody>
+			            <tr>
+			              <td>PG 1</td>
+			              <td>Forfeit</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			            </tr>
+			            <tr>
+			              <td>PG 4</td>
+			              <td>Forfeit</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			              <td>-</td>
+			            </tr>
+			          </tbody>
+			        </table>
 			    </div>
 			    <div class="tab-pane fade" id="men-mar3">
 			    	<h3 class="center-text">Men - March 3, 2012</h3><br />
@@ -889,58 +989,58 @@
 					    <tr>
 					      <td>1</td>
 					      <td>Spencer 1</td>
-					      <td>6</td>
+					      <td>7</td>
 					      <td>0</td>
-					      <td>W 6</td>
+					      <td>W 7</td>
 					    </tr>
 					    <tr>
 					      <td>2</td>
 					      <td>Magna</td>
-					      <td>5</td>
+					      <td>6</td>
 					      <td>1</td>
-					      <td>W 4</td>
+					      <td>W 5</td>
 					    </tr>
 					    <tr>
 					      <td>3</td>
 					      <td>PG 3</td>
 					      <td>4</td>
-					      <td>2</td>
-					      <td>L 1</td>
-					    </tr>
-					    <tr>
-					      <td>4</td>
-					      <td>PG 1</td>
-					      <td>3</td>
 					      <td>3</td>
 					      <td>L 2</td>
 					    </tr>
 					    <tr>
-					      <td>5</td>
+					      <td>4</td>
 					      <td>PG 2</td>
+					      <td>4</td>
 					      <td>3</td>
+					      <td>W 3</td>
+					    </tr>
+					    <tr>
+					      <td>5</td>
+					      <td>PG 1</td>
 					      <td>3</td>
-					      <td>W 2</td>
+					      <td>4</td>
+					      <td>L 3</td>
 					    </tr>
 					    <tr>
 					      <td>6</td>
 					      <td>West Mountain</td>
 					      <td>2</td>
-					      <td>4</td>
-					      <td>W 1</td>
+					      <td>5</td>
+					      <td>L 1</td>
 					    </tr>
 					    <tr>
 					      <td>7</td>
 					      <td>PG 4</td>
 					      <td>1</td>
-					      <td>5</td>
-					      <td>L 3</td>
+					      <td>6</td>
+					      <td>L 4</td>
 					    </tr>
 					    <tr>
 					      <td>8</td>
 					      <td>Parkside</td>
 					      <td>0</td>
-					      <td>6</td>
-					      <td>L 6</td>
+					      <td>7</td>
+					      <td>L 7</td>
 					    </tr>
 					  </tbody>
 					</table>
@@ -1027,21 +1127,21 @@
 					    </tr>
 					  </thead>
 					  <tbody>
-					  	<tr>
+					    <tr>
 					      <td>1</td>
+					      <td>Colton Squire</td>
+					      <td>Magna</td>
+					      <td>5</td>
+					      <td>145</td>
+					      <td>29</td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
 					      <td>Jordan Livingston</td>
 					      <td>PG 4</td>
 					      <td>1</td>
 					      <td>29</td>
 					      <td>29</td>
-					    </tr>
-					    <tr>
-					      <td>2</td>
-					      <td>Colton Squire</td>
-					      <td>Magna</td>
-					      <td>4</td>
-					      <td>100</td>
-					      <td>25</td>
 					    </tr>
 					    <tr>
 					      <td>3</td>
@@ -1077,6 +1177,14 @@
 					    </tr>
 					    <tr>
 					      <td>7</td>
+					      <td>Joey Duckworth</td>
+					      <td>West Mountain</td>
+					      <td>6</td>
+					      <td>100</td>
+					      <td>16.66</td>
+					    </tr>
+					    <tr>
+					      <td>8</td>
 					      <td>Brandon Haueter</td>
 					      <td>Spencer 1</td>
 					      <td>5</td>
@@ -1084,7 +1192,15 @@
 					      <td>15.8</td>
 					    </tr>
 					    <tr>
-					      <td>8</td>
+					      <td>9</td>
+					      <td>Ammon Lockwood</td>
+					      <td>Magna</td>
+					      <td>5</td>
+					      <td>77</td>
+					      <td>15.4</td>
+					    </tr>
+					    <tr>
+					      <td>10</td>
 					      <td>Cuauhtemoc Lopez</td>
 					      <td>PG 2</td>
 					      <td>1</td>
@@ -1092,15 +1208,7 @@
 					      <td>15</td>
 					    </tr>
 					    <tr>
-					      <td>9</td>
-					      <td>Joey Duckworth</td>
-					      <td>West Mountain</td>
-					      <td>5</td>
-					      <td>74</td>
-					      <td>14.8</td>
-					    </tr>
-					    <tr>
-					      <td>10</td>
+					      <td>11</td>
 					      <td>JP Mataalii</td>
 					      <td>Spencer 1</td>
 					      <td>5</td>
@@ -1108,7 +1216,7 @@
 					      <td>14.6</td>
 					    </tr>
 					    <tr>
-					      <td>11</td>
+					      <td>12</td>
 					      <td>Bob Markus</td>
 					      <td>Spencer 1</td>
 					      <td>5</td>
@@ -1116,7 +1224,7 @@
 					      <td>14.2</td>
 					    </tr>
 					    <tr>
-					      <td>12</td>
+					      <td>13</td>
 					      <td>Ryan Prince</td>
 					      <td>PG 3</td>
 					      <td>4</td>
@@ -1124,20 +1232,12 @@
 					      <td>13.25</td>
 					    </tr>
 					    <tr>
-					      <td>13</td>
+					      <td>14</td>
 					      <td>Mauricio Rodriguez</td>
 					      <td>PG 2</td>
 					      <td>1</td>
 					      <td>13</td>
 					      <td>13</td>
-					    </tr>
-					    <tr>
-					      <td>14</td>
-					      <td>Ammon Lockwood</td>
-					      <td>Magna</td>
-					      <td>4</td>
-					      <td>50</td>
-					      <td>12.5</td>
 					    </tr>
 					    <tr>
 					      <td>15</td>
@@ -1382,7 +1482,7 @@
 	    	<p class="center-text"><br />For other documents and information visit the <a href="http://utahareasports.org/content/?page=21">Utah Area Sports Basketball Page</a>.</p>
 		</div><!-- /well docs -->
 		<div class="well" id="allstar">
-			<h2 class="center-text">All-Star Weekend Participants Form</h2>
+			<h2 class="center-text">All-Star Weekend - Results</h2>
 			<div class="tabbable">
 			  <ul class="nav nav-tabs">
 			    <li class="active"><a href="#allstar#allstar-men" data-toggle="tab">Men</a></li>
@@ -1390,10 +1490,338 @@
 			  </ul>
 			  <div class="tab-content">
 			    <div class="tab-pane active" id="allstar-men" align="center">
-			      <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dEtfR2g4dWV4VXBrNzU2TU1fZEVSYVE6MQ" width="625" height="676" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			    	<h2>Winners</h2>
+			    	<table class="table table-striped table-condensed">
+					  <thead>
+					    <tr>
+					      <th>Event</th>
+					      <th>Participant</th>
+					      <th>Team</th>
+					      <th>Score</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td>Skills Challenge</td>
+					      <td>Josh Boyd</td>
+					      <td>PG 3</td>
+					      <td>23.1 seconds</td>
+					    </tr>
+					    <tr>
+					      <td>3-Point Contest</td>
+					      <td>Josh Boyd</td>
+					      <td>PG 3</td>
+					      <td>13</td>
+					    </tr>
+					    <tr>
+					      <td>Slam Dunk Contest</td>
+					      <td>Josh Boyd</td>
+					      <td>PG 3</td>
+					      <td>27</td>
+					    </tr>
+					  </tbody>
+					</table>
+
+					<h2>All-Star Game</h2>
+					<table class="table table-striped table-bordered table-condensed">
+			          <tbody>
+			            <tr>
+			              <th>West</th>
+			              <td>56</td>
+			              <td>22</td>
+			              <td>22</td>
+			              <td>26</td>
+			              <td>20</td>
+			            </tr>
+			            <tr>
+			              <td>East</td>
+			              <td>55</td>
+			              <td>9</td>
+			              <td>12</td>
+			              <td>16</td>
+			              <td>19</td>
+			            </tr>
+			          </tbody>
+			        </table>
+
+			    	<h2>Skills Challenge</h2>
+			    	<table class="table table-striped table-condensed">
+					  <thead>
+					    <tr>
+					      <th>Round</th>
+					      <th>Participant</th>
+					      <th>Team</th>
+					      <th>Time</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td>1</td>
+					      <td>Josh Boyd</td>
+					      <td>PG 3</td>
+					      <td>31.4 seconds</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Ammon Lockwood</td>
+					      <td>Magna</td>
+					      <td>34.4 seconds</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Adam Miles</td>
+					      <td>Spencer 1</td>
+					      <td>41.0 seconds</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Ryan Prince</td>
+					      <td>PG 3</td>
+					      <td>23.5 seconds</td>
+					    </tr>
+					    <tr>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
+					      <td>Josh Boyd</td>
+					      <td>PG 3</td>
+					      <td>23.1 seconds</td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
+					      <td>Ryan Prince</td>
+					      <td>PG 3</td>
+					      <td>25.8 seconds</td>
+					    </tr>
+					  </tbody>
+					</table>
+
+					<h2>3-Point Contest</h2>
+			    	<table class="table table-striped table-condensed">
+					  <thead>
+					    <tr>
+					      <th>Round</th>
+					      <th>Participant</th>
+					      <th>Team</th>
+					      <th>Score</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					  	<tr>
+					      <td>1</td>
+					      <td>James Adams</td>
+					      <td>PG 3</td>
+					      <td>17</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Bob Markus</td>
+					      <td>Spencer 1</td>
+					      <td>9</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Ryan Prince</td>
+					      <td>PG 3</td>
+					      <td>9</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Ammon Lockwood</td>
+					      <td>Magna</td>
+					      <td>4</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Joey Duckworth</td>
+					      <td>West Mountain</td>
+					      <td>10</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Colton Squire</td>
+					      <td>Magna</td>
+					      <td>7</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Josh Boyd</td>
+					      <td>PG 3</td>
+					      <td>10</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Brandon Haueter</td>
+					      <td>Spencer 1</td>
+					      <td>9</td>
+					    </tr>
+					    <tr>
+					      <td>Tiebreaker</td>
+					      <td>Bob Markus</td>
+					      <td>Spencer 1</td>
+					      <td>11</td>
+					    </tr>
+					    <tr>
+					      <td>Tiebreaker</td>
+					      <td>Ryan Prince</td>
+					      <td>PG 3</td>
+					      <td>5</td>
+					    </tr>
+					    <tr>
+					      <td>Tiebreaker</td>
+					      <td>Brandon Haueter</td>
+					      <td>Spencer 1</td>
+					      <td>12</td>
+					    </tr>
+					    <tr>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
+					      <td>James Adams</td>
+					      <td>PG 3</td>
+					      <td>10</td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
+					      <td>Joey Duckworth</td>
+					      <td>West Mountain</td>
+					      <td>9</td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
+					      <td>Josh Boyd</td>
+					      <td>PG 3</td>
+					      <td>12</td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
+					      <td>Brandon Haueter</td>
+					      <td>Spencer 1</td>
+					      <td>11</td>
+					    </tr>
+					    <tr>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>3</td>
+					      <td>Josh Boyd</td>
+					      <td>PG 3</td>
+					      <td>13</td>
+					    </tr>
+					    <tr>
+					      <td>3</td>
+					      <td>Brandon Haueter</td>
+					      <td>Spencer 1</td>
+					      <td>6</td>
+					    </tr>
+					  </tbody>
+					</table>
+
+					<h2>Slam Dunk Contest</h2>
+			    	<table class="table table-striped table-condensed">
+					  <thead>
+					    <tr>
+					      <th>Round</th>
+					      <th>Participant</th>
+					      <th>Team</th>
+					      <th>Score</th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td>1</td>
+					      <td>Nate Jacobs</td>
+					      <td>Spencer 1</td>
+					      <td>18</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Jeff Scott</td>
+					      <td>PG 3</td>
+					      <td>22</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Colton Squire</td>
+					      <td>Magna</td>
+					      <td>19</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Joey Duckworth</td>
+					      <td>West Mountain</td>
+					      <td>18</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Zach Johnson</td>
+					      <td>PG 3</td>
+					      <td>10</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>James Adams</td>
+					      <td>PG 3</td>
+					      <td>19</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Josh Boyd</td>
+					      <td>PG 3</td>
+					      <td>24</td>
+					    </tr>
+					    <tr>
+					      <td>1</td>
+					      <td>Adam Miles</td>
+					      <td>Spencer 1</td>
+					      <td>17</td>
+					    </tr>
+					    <tr>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					      <td></td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
+					      <td>Jeff Scott</td>
+					      <td>PG 3</td>
+					      <td>11</td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
+					      <td>Colton Squire</td>
+					      <td>Magna</td>
+					      <td>21</td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
+					      <td>James Adams</td>
+					      <td>PG 3</td>
+					      <td>23</td>
+					    </tr>
+					    <tr>
+					      <td>2</td>
+					      <td>Josh Boyd</td>
+					      <td>PG 3</td>
+					      <td>27</td>
+					    </tr>
+					  </tbody>
+					</table>
 			    </div>
 			    <div class="tab-pane" id="allstar-ym" align="center">
-			      <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dEFkX3huc20tLWoyclJ1ZGNKRUVVdEE6MQ" width="625" height="676" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			      
 			    </div>
 			  </div>
 			</div>
