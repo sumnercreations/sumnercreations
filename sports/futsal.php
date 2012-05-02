@@ -22,7 +22,7 @@
 			<h1 class="center-text">Futsal (Indoor Soccer)</h1>
 		</div><!-- /well -->
 		<div class="well">
-			<img src="http://officecubicledotorg.files.wordpress.com/2011/03/website-under-construction.gif" alt="Under Construction" />
+			<img src="img/futsal.jpg" alt="Futsal Kickoff" />
 		</div><!-- /well -->
 	</div><!-- /container content -->
 <?php include("includes/footer.inc"); ?>
