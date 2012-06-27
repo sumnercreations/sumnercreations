@@ -23,6 +23,10 @@
 		</div><!-- /well -->
 		<div class="well">
 			<h3 class="center-text">Engineering & IT Cultures</h3>
+			<p>I have worked in Engineering and IT for 7 years now and I've loved every moment of it.  At times it can be crazy and you will be spending hours looking through logs and trying over and over again to find the issue, expecting everytime for something to be different.  It truly is insanity.</p>
+			<p>Then at other times, it's more fun than you can imagine.  Everywhere I've worked there has been a stash of food and snacks to keep you going on those long days and those tough projects.  A fusball table, pingpong table, basketball hoop or any other recreational activity available to you to relax and allow your brain to recoup.</p>
+			<p>There are BBQ, Christmas Parties, Campouts, LAN parties (parties where we all play the same game(s) together for hours), and so much more.  These moments more than make up for the insanity.  For me, the environment and the people make the job.  That has been the deciding factor in the jobs that I have taken over anything else; even money.</p>
+			<p>Take a moment to peruse the site and find out more about what I've learned as I've worked in the field and associated with others who have done it for longer than I.  If you have any comments, feel free to send them my way: ammon[at]sumnercreations[dot]com</a>.</p>
 			<!-- <div class="row">
 			<div class="span12">
 				<div class="row">

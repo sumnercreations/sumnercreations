@@ -19,6 +19,19 @@
 	<div class="container content">
 		<div class="well">
 			<h1 class="center-text">Becoming a Web Developer</h1>
+			<p>Becoming a web develper is not as hard as you may think.  There are so many great tutorials that you can use to get started.  You will also quickly find that those that have gone before you are happy to help you with their own knowledge.  The web development scene is full of people willing to help answer your questions.</p>
+			<p>Start reading books, articles and blog post.  Engross yourself in the art and start experimenting.  The sooner you start trying things out the sooner you'll start to understand what you're reading.</p>
+			<p>Look into options that are available to you to try your hand at developing webpages in your free time such as this: <a href="http://www.simplifythis.com/blog/small-business/how-to-become-a-web-entrepreneur-in-your-free-time/" target="_blank">Become a Web Entrepreneur In Your Freetime.</a></p>
+			<p>Get your name out there:</p>
+			<ul>
+				<li>Create a portfolio of your work.</li>
+				<li>Add your skills to your <a href="http://www.linkedin.com/">LinkedIn</a> account.</li>
+				<li>Add your r&eacute;sum&eacute; to <a href="http://www.linkedin.com/">LinkedIn</a> and other sites.</li>
+				<li>Attend <a href="http://www.meetup.com">Meetup</a> events about Web Technologies, User Experience, Testing and specific languages you have interest in.</li>
+				<li>Never stop learning.</li>
+				<li>Network, network and network some more.  The web development field is definitely "more about who you know than what you know".</li>
+				<li>Never give up on what you love.</li>
+			</ul>
 		</div><!-- /well -->
 		<!-- <div class="subnav subnav-fixed">
 			<ul class="nav nav-pills">

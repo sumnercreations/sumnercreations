@@ -18,7 +18,26 @@
 	</div><!-- /navbar -->
 	<div class="container content">
 		<div class="well">
-			<h1 class="center-text">Writing</h1>
+			<h1 class="center-text">Writing for the Web</h1>
+			<p>Writing for the web is a lot different than writing a report.  There are a lot of things that you must consider when creating content for the web.</p>
+			<ul>
+				<li>Identify your audience</li>
+				<li>Will disabled people visit your site?  If so, ensure your site works well with screen readers.</li>
+				<li>Keep articles short and to the point.</li>
+				<li>Make content the center of attention.</li>
+				<li>Don't allow the site to become to busy with unimportant content.</li>
+				<li>Other ideas can be found <a href="http://www.useit.com/papers/webwriting/" target="_blank">here (www.useit.com/papers/webwriting/)</a></li>
+		</div><!-- /well -->
+		<div class="well">
+			<h1 class="center-text">Writing in Engineering or IT</h1>
+			<p>Writing in an Engineering or IT department is much different than that of a school, a lawyer's office, or a Bank, and not just the topics.</p>
+			<p>Engineering and IT employees spend their entire day in front of a computer and are often discussing highly technical topics.  Emails between colleagues will often be short and to the point, however, when including people outside these groups, it's important to keep a few things in mind:</p>
+			<ul>
+				<li>Make items bold in order to draw attention to them.</li>
+				<li>Use bulleted lists in order to make things clear and easy to read at a glance.</li>
+				<li>Define terms when needed.</li>
+				<li>Don't abbreviate unless all parties are familiar with the abbreviation.</li>
+				<li>Flag important items in order to catch attention.  Remember many people have more emails than they are able to keep up with.</li>
 		</div><!-- /well -->
 	</div><!-- /container content -->
 <?php include("includes/footer.inc"); ?>
