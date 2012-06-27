@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-	<title>ENGLISH 2100 - Technical Communication and Organization Culture In Web Development</title>
+	<title>Technical Communication and Organization Culture In Web Development</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/styles.css" />
 	<!-- Google Analytics -->
