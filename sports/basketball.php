@@ -9,9 +9,9 @@
   						<li><a href="index.php">Home</a></li>
   						<li class="active"><a href="basketball.php">Basketball</a></li>
   						<li><a href="futsal.php">Futsal (indoor soccer)</a></li>
-  						<li><a href="volleyball.php">Volleyball</a></li>
-  						<li><a href="softball.php">Softball</a></li>
   						<li><a href="football.php">Flag Football</a></li>
+  						<li><a href="softball.php">Softball</a></li>
+  						<li><a href="volleyball.php">Volleyball</a></li>
   						<li><a href="5k.php">5K Run</a></li>
 					</ul><!-- /nav -->
 			</div><!-- /container -->

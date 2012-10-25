@@ -9,9 +9,9 @@
   						<li><a href="index.php">Home</a></li>
   						<li><a href="basketball.php">Basketball</a></li>
   						<li><a href="futsal.php">Futsal (indoor soccer)</a></li>
-  						<li><a href="volleyball.php">Volleyball</a></li>
-  						<li class="active"><a href="softball.php">Softball</a></li>
   						<li><a href="football.php">Flag Football</a></li>
+  						<li class="active"><a href="softball.php">Softball</a></li>
+  						<li><a href="volleyball.php">Volleyball</a></li>
   						<li><a href="5k.php">5K Run</a></li>
 					</ul><!-- /nav -->
 			</div><!-- /container -->
@@ -22,7 +22,7 @@
 			<h1 class="center-text">Softball</h1>
 		</div><!-- /well -->
 		<div class="well">
-			<img src="http://officecubicledotorg.files.wordpress.com/2011/03/website-under-construction.gif" alt="Under Construction" />
+			<p>Softball will begin in September</p>
 		</div><!-- /well -->
 	</div><!-- /container content -->
 <?php include("includes/footer.inc"); ?>
