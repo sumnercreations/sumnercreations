@@ -1105,7 +1105,7 @@
 			  </div><!-- /tab-content -->
 			</div><!-- /tabbable -->
 		</div><!-- /well standings -->
-		<div class="well" id="stats">
+		<!-- <div class="well" id="stats">
 			<h2 class="center-text">Player Statistics</h2>
 			<div class="tabbable">
 			  <ul class="nav nav-tabs">
@@ -1468,7 +1468,7 @@
 					</table>
 			    </div>
 			  </div>
-			</div>
+			</div> -->
 		</div><!-- /well stats -->
 		<div class="well" id="docs">
 			<h2 class="center-text">Documents (PDF)</h2>
@@ -1481,7 +1481,7 @@
 	    	<ul>
 	    	<p class="center-text"><br />For other documents and information visit the <a href="http://utahareasports.org/content/?page=21">Utah Area Sports Basketball Page</a>.</p>
 		</div><!-- /well docs -->
-		<div class="well" id="allstar">
+		<!-- <div class="well" id="allstar">
 			<h2 class="center-text">All-Star Weekend - Results</h2>
 			<div class="tabbable">
 			  <ul class="nav nav-tabs">
@@ -1825,6 +1825,6 @@
 			    </div>
 			  </div>
 			</div>
-		</div><!-- /well allstar -->
+		</div><!-- /well allstar --> -->
 	</div><!-- /container content -->
 <?php include("includes/footer.inc"); ?>
