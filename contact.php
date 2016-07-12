@@ -46,7 +46,7 @@ $send = 'To: ' . $to .'<br />'. 'Subject: ' . $subject .'<br />'. 'Body: ' . $bo
 		 	header( "Location: http://www.sumnercreations.com/thankyou.html" );
 		 }else // Otherwise notify them that the email was not sent and provide them options.
 		 	{
-		 		print "We encountered an error sending your mail, please notify webmaster@sumnercreations.com";
+		 		print "We encountered an error sending your mail, please notify team@plaidtie.net";
 		 	} 
 	}
 ?>
